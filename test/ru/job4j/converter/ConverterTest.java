@@ -16,7 +16,7 @@ public class ConverterTest {
     @Test
     public void whenConvert180RblThen3Dlr() {
         int rub = 180;
-        int dollar = 4;
+        int dollar = 3;
         int fro = Converter.rubleToDollar(rub);
         Assert.assertEquals(dollar, fro);
     }
