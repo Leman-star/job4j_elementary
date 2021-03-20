@@ -22,32 +22,32 @@ public class X2Test {
         Assert.assertEquals(expected, rsl);
     }
     @Test
-    public void whenA10B0C0X2Then30() {
+    public void whenA10B0C0X2Then3() {
         int a = 1;
         int b = 1;
         int c = 1;
         int x = 1;
-        int expected = 30;
+        int expected = 3;
         int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
     @Test
-    public void whenA10B0C0X2Then20() {
+    public void whenA10B0C0X2Then2() {
         int a = 0;
         int b = 1;
         int c = 1;
         int x = 1;
-        int expected = 20;
+        int expected = 2;
         int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
     @Test
-    public void whenA10B0C0X2Then10() {
+    public void whenA10B0C0X2Then5() {
         int a = 1;
         int b = 1;
         int c = 0;
         int x = 1;
-        int expected = 10;
+        int expected = 2;
         int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
